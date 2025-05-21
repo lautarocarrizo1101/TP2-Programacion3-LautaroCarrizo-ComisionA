@@ -1,0 +1,1 @@
+const cinco = "inco";
