@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 06 Plantilla de datos</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Plantilla personal</h1>
+        <label for="nombre">Nombres:</label>
+        <input type="text" id="nombre" maxlength="50" required>
+        <br>
+        <label for="apellido">Apellidos:</label>
+        <input type="text" id="apellido" maxlength="50" required>
+        <br>
+        <label for="edad">Edad(años):</label>
+        <input type="number" step="1" id="edad" required>
+        <br>
+        <label for="altura">Altura(centimetros):</label>
+        <input type="number" step="0.01" id="altura" required>
+        <br>
+        <label for="correo">Correo Electronico:</label>
+        <input type="email" id="correo" required>
+        <br>
+        <button id="boton">enviar</button>
+        <br>
+        <p id="mensaje"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
